@@ -17,4 +17,9 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+	err1 := dictionary.Delete(baseWord)
+	if err != nil {
+		fmt.Println(err1)
+	}
+
 }
